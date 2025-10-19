@@ -19,6 +19,16 @@
   }
 }
 
+@font-face {
+  font-family: "Catchy Mager", cursive;
+  font-feature-settings: "liga", "swsh", "calt";
+  src: url("/fonts/CatchyMager.woff2") format("woff2"),
+    url("/fonts/CatchyMager.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
