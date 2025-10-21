@@ -30,7 +30,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="pt-[20vh] px-[15vw] flex flex-col gap-10 items-center w-full">
+                <div className="pt-[20vh] px-[20vw] flex flex-col gap-10 items-center w-full">
                     <div className="relative w-full flex flex-col items-center ">
                         <p className="text-5xl">Hear From Our Community</p>
                         <span className="absolute bottom-[-15] border-2 border-blue-300 w-[55%] rounded-md "></span>
@@ -48,8 +48,8 @@ export default function Home() {
                 <div className="pt-[20vh] flex flex-row w-[60%] justify-center text-xl">
                     <div className="w-full flex flex-col items-center gap-6">
                         <div className="relative w-full flex flex-col items-center ">
-                            <p className="text-5xl">Location</p>
-                            <span className="absolute bottom-[-15] border-2 border-blue-300 w-[40%] rounded-md "></span>
+                            <p className="text-4xl">Location</p>
+                            <span className="absolute bottom-[-15] border-2 border-blue-300 w-[35%] rounded-md "></span>
                         </div>
                         <p className="mt-4 text-center">6100 Church Rd, <br/> Ferndale, WA 98248</p>
                         <button
@@ -63,8 +63,8 @@ export default function Home() {
                     </div>
                     <div className="w-full flex flex-col items-center gap-6">
                         <div className="relative w-full flex flex-col items-center ">
-                            <p className="text-5xl">Service Times</p>
-                            <span className="absolute bottom-[-15] border-2 border-blue-300 w-[55%] rounded-md "></span>
+                            <p className="text-4xl">Service Times</p>
+                            <span className="absolute bottom-[-15] border-2 border-blue-300 w-[50%] rounded-md "></span>
                         </div>
                         <p className="mt-4 text-center">Every Sunday <br /> 8:15AM | 10:30AM | 12:30PM</p>
                         <button
