@@ -31,10 +31,9 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="pt-[20vh] px-[20vw] flex flex-col gap-10 items-center w-full">
-                    <div className="relative w-full flex flex-col items-center ">
-                        <p className="text-5xl">Hear From Our Community</p>
-                        <span className="absolute bottom-[-15] border-2 border-blue-300 w-[55%] rounded-md "></span>
-                    </div>
+                        <p className="text-5xl relative inline-block after:block after:mt-[8px] after:h-[4px] after:bg-blue-300 after:w-[115%] after:ml-[-7.5%]">
+                            Hear From Our Community
+                        </p>
                     <p className="text-xl text-center text-center">A Christ-centered and loving church family! Inviting,
                         open, warm, and friendly—focused on
                         teaching Scripture and kindly including everyone who enters. Very family-friendly and welcoming
@@ -47,11 +46,10 @@ export default function Home() {
                 </div>
                 <div className="pt-[20vh] flex flex-row w-[60%] justify-center text-xl">
                     <div className="w-full flex flex-col items-center gap-6">
-                        <div className="relative w-full flex flex-col items-center ">
-                            <p className="text-4xl">Location</p>
-                            <span className="absolute bottom-[-15] border-2 border-blue-300 w-[35%] rounded-md "></span>
-                        </div>
-                        <p className="mt-4 text-center">6100 Church Rd, <br/> Ferndale, WA 98248</p>
+                        <p className="text-4xl relative inline-block after:block after:mt-[8px] after:h-[4px] after:bg-blue-300 after:w-[130%] after:ml-[-15%]">
+                            Location
+                        </p>
+                        <p className="text-center">6100 Church Rd, <br/> Ferndale, WA 98248</p>
                         <button
                             className="cursor-pointer bg-black/10 py-2 px-4 rounded-sm border-3 border-blue-300/75
              transition-transform transition-shadow duration-500 transform-gpu
@@ -62,11 +60,10 @@ export default function Home() {
 
                     </div>
                     <div className="w-full flex flex-col items-center gap-6">
-                        <div className="relative w-full flex flex-col items-center ">
-                            <p className="text-4xl">Service Times</p>
-                            <span className="absolute bottom-[-15] border-2 border-blue-300 w-[50%] rounded-md "></span>
-                        </div>
-                        <p className="mt-4 text-center">Every Sunday <br /> 8:15AM | 10:30AM | 12:30PM</p>
+                        <p className="text-4xl relative inline-block after:block after:mt-[8px] after:h-[4px] after:bg-blue-300 after:w-[120%] after:ml-[-10%]">
+                           Service Times
+                        </p>
+                        <p className="text-center">Every Sunday <br /> 8:15AM | 10:30AM | 12:30PM</p>
                         <button
                             className="cursor-pointer bg-black/10 py-2 px-4 rounded-sm border-3 border-blue-300/75
              transition-transform transition-shadow duration-500 transform-gpu
